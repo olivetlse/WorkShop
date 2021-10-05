@@ -2,10 +2,46 @@
 .liensboutons{
     color: #FFF;
 }
+.images{
+flex : end; 
+}
+
+conteneur_images {
+height : auto; 
+  display: flex;
+  margin : auto;
+ 
+  align-content : center; 
+  justify-content: center;
+}
+
+.titre{
+margin : 20% 0%; 
+}
+
+#HANDICAP_AUDITIF{
+margin : auto; 
+}
+#HANDICAP_MOTEUR{
+margin : auto; 
+}
+#HANDICAP_PSYCHIQUE{
+margin : auto; 
+}
+
+#HANDICAP_VISUEL{
+margin : auto; 
+}
+#HANDICAP_INTELLECTUEL{
+margin : auto; 
+}
+#L’AUTISME{
+margin : auto; 
+}
 .styled {
     border: 0;
     line-height: 3; /*epaisseur*/
-    padding: 20px;
+    padding: 0 20px;
     font-size: 4vw;
     text-align: center;
     color: #FFF;
@@ -11141,7 +11177,7 @@ header.masthead {
 header.headerpagesannexes {
   position: relative;
   margin-bottom: 3rem;
-  padding-top: calc(4rem + 10px);
+  padding-top: calc(6rem + 57px);
   padding-bottom: 0rem;
   background: no-repeat center center;
   background-color: #6c757d;
